@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<!-- ======================================================
+     SEO / METADATA
+     ====================================================== -->
+<title>CAC Good Works Assembly | 2026 Camp Meeting – Freely Given</title>
+<meta name="description" content="Join CAC Good Works Assembly for the 2026 Camp Meeting themed FREELY GIVEN, October 8–11, 2026.">
+<meta name="theme-color" content="#0a1330">
+<link rel="canonical" href="PASTE_CANONICAL_URL_HERE">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="CAC Good Works Assembly | 2026 Camp Meeting – Freely Given">
+<meta property="og:description" content="Join CAC Good Works Assembly for the 2026 Camp Meeting themed FREELY GIVEN, October 8–11, 2026.">
+<meta property="og:image" content="images/hero.jpg">
+<meta property="og:url" content="PASTE_CANONICAL_URL_HERE">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CAC Good Works Assembly | 2026 Camp Meeting – Freely Given">
+<meta name="twitter:description" content="Join CAC Good Works Assembly for the 2026 Camp Meeting themed FREELY GIVEN, October 8–11, 2026.">
+<meta name="twitter:image" content="images/hero.jpg">
+
+<!-- Structured data for the event -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "2026 Camp Meeting — Freely Given",
+  "startDate": "2026-10-08",
+  "endDate": "2026-10-11",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "description": "CAC Good Works Assembly 2026 Camp Meeting themed FREELY GIVEN, based on Romans 8:32 and 1 Corinthians 2:12.",
+  "organizer": {
+    "@type": "Organization",
+    "name": "Christ Apostolic Church, Good Works Assembly"
+  }
+}
+</script>
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="images/icon-192.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Cormorant+Garamond:ital,wght@0,500;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ======================================================
+     SKIP LINK — ACCESSIBILITY
+     ====================================================== -->
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ======================================================
+     NAVIGATION
+     ====================================================== -->
+<header class="site-header" id="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="#hero" class="nav__brand">
+      <!-- ======================================
+           LOGO — REPLACE THIS IMAGE
+           Recommended size: square, transparent PNG
+           ====================================== -->
+      <img src="images/logo.png" alt="CAC Good Works Assembly Logo" class="nav__logo" width="40" height="40">
+      <span class="nav__title">2026 Camp Meeting</span>
+    </a>
+
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav__menu" id="navMenu">
+      <li><a href="#hero" class="nav__link">Home</a></li>
+      <li><a href="#about" class="nav__link">About</a></li>
+      <li><a href="#ministers" class="nav__link">Ministers</a></li>
+      <li><a href="#program" class="nav__link">Program</a></li>
+      <li><a href="#links" class="nav__link">Links</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ======================================================
+       1. HERO SECTION
+       ====================================================== -->
+  <section class="hero" id="hero">
+    <div class="hero__backdrop" aria-hidden="true">
+      <div class="hero__glow"></div>
+      <div class="hero__rays"></div>
+      <div class="hero__particles" id="heroParticles"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="reveal eyebrow eyebrow--church">Christ Apostolic Church</p>
+      <p class="reveal eyebrow eyebrow--church eyebrow--sub">Good Works Assembly</p>
+
+      <p class="reveal hero__year">2026 Camp Meeting</p>
+
+      <h1 class="reveal hero__theme">
+        <span class="hero__theme-quote" aria-hidden="true">&ldquo;</span>Freely Given<span class="hero__theme-quote" aria-hidden="true">&rdquo;</span>
+      </h1>
+
+      <p class="reveal hero__verses">Romans&nbsp;8:32 <span class="hero__verses-divider">|</span> 1&nbsp;Corinthians&nbsp;2:12</p>
+
+      <p class="reveal hero__dates">October 8&ndash;11, 2026</p>
+
+      <!-- ======================================================
+           COUNTDOWN TIMER
+           Target date is configured in script.js under
+           CAMP MEETING BASIC INFORMATION
+           ====================================================== -->
+      <div class="reveal countdown" id="countdown" aria-live="polite">
+        <div class="countdown__grid" id="countdownGrid">
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cd-days">00</span>
+            <span class="countdown__label">Days</span>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cd-hours">00</span>
+            <span class="countdown__label">Hours</span>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cd-minutes">00</span>
+            <span class="countdown__label">Minutes</span>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cd-seconds">00</span>
+            <span class="countdown__label">Seconds</span>
+          </div>
+        </div>
+        <p class="countdown__status" id="countdownStatus" hidden></p>
+      </div>
+
+      <div class="reveal hero__actions">
+        <a href="#links" class="btn btn--gold">Register Now</a>
+        <button class="btn btn--ghost" id="installBtn" hidden>
+          <svg viewBox="0 0 24 24" class="btn__icon" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 19h14" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Install App
+        </button>
+      </div>
+    </div>
+
+    <a href="#about" class="hero__scroll" aria-label="Scroll to About section">
+      <span class="hero__scroll-line"></span>
+    </a>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider" aria-hidden="true"><span class="divider__mark"></span></div>
+
+  <!-- ======================================================
+       2. ABOUT THE CAMP MEETING
+       ====================================================== -->
+  <section class="section about" id="about">
+    <div class="container about__grid">
+      <div class="reveal-scroll about__text">
+        <p class="eyebrow">About the Camp Meeting</p>
+        <h2 class="section-title">2026 Camp Meeting</h2>
+        <p class="about__theme">Theme: <strong>Freely Given</strong></p>
+        <p class="about__verses">Romans 8:32 &nbsp;&middot;&nbsp; 1 Corinthians 2:12</p>
+        <p class="about__intro">A gathering of believers for spiritual renewal, fellowship, worship, teaching, prayer and a deeper encounter with God.</p>
+      </div>
+      <div class="reveal-scroll about__verse-card" aria-hidden="true">
+        <p class="about__verse-text">&ldquo;He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?&rdquo;</p>
+        <p class="about__verse-ref">Romans 8:32</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider" aria-hidden="true"><span class="divider__mark"></span></div>
+
+  <!-- ======================================================
+       3. MINISTERS SECTION
+       ====================================================== -->
+  <section class="section ministers" id="ministers">
+    <div class="container">
+      <p class="eyebrow eyebrow--center">Men &amp; Women of God</p>
+      <h2 class="section-title section-title--center">Our Ministers</h2>
+
+      <!-- ==============================
+           MINISTER PHOTOS & DETAILS
+           REPLACE IMAGE PATHS, NAMES AND TITLES BELOW
+           Recommended photo size: 600x750px (portrait), JPG
+      ================================ -->
+      <div class="minister-grid">
+
+        <article class="minister-card reveal-scroll">
+          <div class="minister-card__photo-wrap">
+            <img src="images/minister-1.jpg" alt="Portrait of Minister One" class="minister-card__photo" loading="lazy" width="600" height="750">
+          </div>
+          <h3 class="minister-card__name">Minister Name</h3>
+          <p class="minister-card__title">Title / Position</p>
+          <p class="minister-card__church">Ministry / Church Name</p>
+        </article>
+
+        <article class="minister-card reveal-scroll">
+          <div class="minister-card__photo-wrap">
+            <img src="images/minister-2.jpg" alt="Portrait of Minister Two" class="minister-card__photo" loading="lazy" width="600" height="750">
+          </div>
+          <h3 class="minister-card__name">Minister Name</h3>
+          <p class="minister-card__title">Title / Position</p>
+          <p class="minister-card__church">Ministry / Church Name</p>
+        </article>
+
+        <article class="minister-card reveal-scroll">
+          <div class="minister-card__photo-wrap">
+            <img src="images/minister-3.jpg" alt="Portrait of Minister Three" class="minister-card__photo" loading="lazy" width="600" height="750">
+          </div>
+          <h3 class="minister-card__name">Minister Name</h3>
+          <p class="minister-card__title">Title / Position</p>
+          <p class="minister-card__church">Ministry / Church Name</p>
+        </article>
+
+        <article class="minister-card reveal-scroll">
+          <div class="minister-card__photo-wrap">
+            <img src="images/minister-4.jpg" alt="Portrait of Minister Four" class="minister-card__photo" loading="lazy" width="600" height="750">
+          </div>
+          <h3 class="minister-card__name">Minister Name</h3>
+          <p class="minister-card__title">Title / Position</p>
+          <p class="minister-card__church">Ministry / Church Name</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider" aria-hidden="true"><span class="divider__mark"></span></div>
+
+  <!-- ======================================================
+       4. PROGRAM / EVENT DATES
+       ====================================================== -->
+  <section class="section program" id="program">
+    <div class="container">
+      <p class="eyebrow eyebrow--center">Order of Service</p>
+      <h2 class="section-title section-title--center">Program Schedule</h2>
+
+      <!-- ==============================
+           EVENT PROGRAM
+           EDIT DAYS, DATES AND DESCRIPTIONS BELOW
+      ================================ -->
+      <ol class="timeline">
+        <li class="timeline__item reveal-scroll">
+          <div class="timeline__day">Thursday</div>
+          <div class="timeline__date">October 8</div>
+          <div class="timeline__desc">Camp Meeting Opening</div>
+        </li>
+        <li class="timeline__item reveal-scroll">
+          <div class="timeline__day">Friday</div>
+          <div class="timeline__date">October 9</div>
+          <div class="timeline__desc">Camp Meeting Service</div>
+        </li>
+        <li class="timeline__item reveal-scroll">
+          <div class="timeline__day">Saturday</div>
+          <div class="timeline__date">October 10</div>
+          <div class="timeline__desc">Morning &amp; Evening Sessions</div>
+        </li>
+        <li class="timeline__item reveal-scroll">
+          <div class="timeline__day">Sunday</div>
+          <div class="timeline__date">October 11</div>
+          <div class="timeline__desc">Thanksgiving &amp; Closing Service</div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider" aria-hidden="true"><span class="divider__mark"></span></div>
+
+  <!-- ======================================================
+       5. CALL-TO-ACTION LINKS
+       ====================================================== -->
+  <section class="section links" id="links">
+    <div class="container">
+      <p class="eyebrow eyebrow--center">Get Involved</p>
+      <h2 class="section-title section-title--center">Camp Meeting Links</h2>
+      <p class="links__note">Links become active once configured. See <code>script.js</code> to add your URLs.</p>
+
+      <div class="links-grid">
+        <button class="link-card" data-link-key="registration" type="button">
+          <span class="link-card__icon" aria-hidden="true">&#10003;</span>
+          <span class="link-card__label">Register Now</span>
+          <span class="link-card__hint">Reserve your seat</span>
+        </button>
+
+        <button class="link-card" data-link-key="gallery" type="button">
+          <span class="link-card__icon" aria-hidden="true">&#9733;</span>
+          <span class="link-card__label">View Gallery</span>
+          <span class="link-card__hint">Photos &amp; memories</span>
+        </button>
+
+        <button class="link-card" data-link-key="volunteer" type="button">
+          <span class="link-card__icon" aria-hidden="true">&#10084;</span>
+          <span class="link-card__label">Volunteer</span>
+          <span class="link-card__hint">Serve at camp meeting</span>
+        </button>
+
+        <button class="link-card" data-link-key="admin" type="button">
+          <span class="link-card__icon" aria-hidden="true">&#9881;</span>
+          <span class="link-card__label">Admin</span>
+          <span class="link-card__hint">Team access</span>
+        </button>
+
+        <button class="link-card" data-link-key="documentation" type="button">
+          <span class="link-card__icon" aria-hidden="true">&#128220;</span>
+          <span class="link-card__label">Documentation</span>
+          <span class="link-card__hint">Guides &amp; resources</span>
+        </button>
+
+        <button class="link-card" data-link-key="strategies" type="button">
+          <span class="link-card__icon" aria-hidden="true">&#9906;</span>
+          <span class="link-card__label">Strategies</span>
+          <span class="link-card__hint">Planning &amp; outreach</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ======================================================
+     FOOTER
+     ====================================================== -->
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__church">Christ Apostolic Church<br>Good Works Assembly</p>
+    <p class="site-footer__meeting">2026 Camp Meeting &nbsp;&middot;&nbsp; Freely Given</p>
+    <p class="site-footer__verses">Romans 8:32 | 1 Corinthians 2:12</p>
+    <p class="site-footer__copyright">&copy; 2026 CAC Good Works Assembly</p>
+    <p class="site-footer__signature">Designed with excellence for the glory of God.</p>
+  </div>
+</footer>
+
+<!-- ======================================================
+     iOS "ADD TO HOME SCREEN" INSTRUCTIONS MODAL
+     ====================================================== -->
+<div class="ios-modal" id="iosModal" role="dialog" aria-modal="true" aria-labelledby="iosModalTitle" hidden>
+  <div class="ios-modal__panel">
+    <button class="ios-modal__close" id="iosModalClose" aria-label="Close install instructions">&times;</button>
+    <h2 id="iosModalTitle" class="ios-modal__title">Install this App</h2>
+    <ol class="ios-modal__steps">
+      <li>Tap the <strong>Share</strong> icon in Safari</li>
+      <li>Select <strong>Add to Home Screen</strong></li>
+      <li>Tap <strong>Add</strong></li>
+    </ol>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -22,10 +22,10 @@
      visitors the link isn't ready yet, instead of breaking.
      ========================================================== */
   const CAMP_LINKS = {
-    registration:  "PASTE_REGISTRATION_LINK_HERE",
-    gallery:       "PASTE_GALLERY_LINK_HERE",
-    volunteer:     "PASTE_VOLUNTEER_LINK_HERE",
-    admin:         "PASTE_ADMIN_LINK_HERE",
+    registration:  "https://script.google.com/macros/s/AKfycbztL5hul8-FEikBgRJJR66zW4D9tJorL4NLGZG92LKMajojdvUVp6HOZWUSarU59vDx/exec",
+    gallery:       "https://script.google.com/macros/s/AKfycbztL5hul8-FEikBgRJJR66zW4D9tJorL4NLGZG92LKMajojdvUVp6HOZWUSarU59vDx/exec?page=gallery",
+    volunteer:     "https://script.google.com/macros/s/AKfycbztL5hul8-FEikBgRJJR66zW4D9tJorL4NLGZG92LKMajojdvUVp6HOZWUSarU59vDx/exec?page=checkin",
+    admin:         "https://script.google.com/macros/s/AKfycbztL5hul8-FEikBgRJJR66zW4D9tJorL4NLGZG92LKMajojdvUVp6HOZWUSarU59vDx/exec?page=admin",
     documentation: "PASTE_DOCUMENTATION_LINK_HERE",
     strategies:    "PASTE_STRATEGIES_LINK_HERE",
   };

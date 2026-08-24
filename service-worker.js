@@ -8,7 +8,7 @@
    returning visitors get the fresh version.
    ============================================================ */
 
-const CACHE_NAME = "camp-meeting-2026-v1";
+const CACHE_NAME = "camp-meeting-2026-v2";
 
 const CORE_ASSETS = [
   "./",
@@ -16,9 +16,9 @@ const CORE_ASSETS = [
   "./style.css",
   "./script.js",
   "./manifest.json",
-  "./images/logo.png",
-  "./images/icon-192.png",
-  "./images/icon-512.png",
+  "./logo.png",
+  "./icon-192.png",
+  "./icon-512.png",
 ];
 
 /* ---------- INSTALL ---------- */
